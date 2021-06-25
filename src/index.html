@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <!-- <link rel="icon" href="images/icon.ico"> -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <div class=container>
+        <div class=container-left>
+            <p class="field-label">Bill</p>
+            <div class="input-field-container">
+                <input type="number" class="billField" value="0.00">
+            </div>
+            <div class="billError error"></div>
+            <p class="field-label">Tip %</p>
+            <div class="input-field-container">
+                <button class="decrement tip-decrement">-</button>
+                <input type="number" class="tipField" min="1" max="100" value="0">
+                <span class="percent">%</span>
+                <button class="increment tip-increment">+</button>
+            </div>
+            <div class="tipError error"></div>
+            <p class="field-label">Number of people</p>
+            <div class="input-field-container">
+                <button class="decrement numberOfPeople-decrement">-</button>
+                <input type="number" class="numberOfPeopleField" value="1" min="1">
+                <button class="increment numberOfPeople-increment">+</button>
+            </div>
+            <div class="numberOfPeopleError error"></div>
+        </div>
+        <div class=container-right>
+            <div class="container-right-display">
+                <div class="outputLabel">
+                    <p class="outputLabelHeading">Tip<p>
+                    <p class="field-label">per person<p>   
+                </div>
+                <div class="outputTip"></div>
+            </div>
+            <div class="container-right-display">
+                <div class="outputLabel">
+                    <p class="outputLabelHeading">Total<p>
+                    <p class="field-label">per person<p>   
+                </div>
+                <div class="outputTotal"></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

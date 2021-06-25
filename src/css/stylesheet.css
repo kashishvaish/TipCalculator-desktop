@@ -1,0 +1,154 @@
+html{
+    height: 390px;
+}
+
+body{
+    height: 98%;
+    border: 1px solid #e2e2e2;
+    border-radius: 2%;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 95%;
+}
+
+.container-left {
+    width: 35%;
+    height: 94%;
+    padding-top: 5%;
+    padding-left: 3%;
+    border-right: 1px solid #e2e2e2;
+}
+
+.container-right {
+    width: 63%;
+    height: 80%;
+    padding-top: 11%;
+    padding-left: 3%;
+}
+
+.field-label {
+    color: #888888;
+    margin-bottom: 1%;
+}
+
+.billField {
+    border: 1px solid #e2e2e2;
+    padding: 5px;
+    border-radius: 5%;
+    width: 100%;
+    font-size: 150%;
+    text-align: center;
+    height: 25px;
+}
+
+.numberOfPeopleField {
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 5px;
+    margin: 0px;
+    width: 70%;
+    font-size: 150%;
+    text-align: center;
+    height: 25px;
+}
+
+.tipField {
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 5px;
+    margin: 0px;
+    width: 60%;
+    font-size: 150%;
+    text-align: center;
+    height: 25px;
+    display: inline-block;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.percent {
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    height:25px;
+    padding: 5px;
+    width: 10%;
+    display: inline-block;
+    font-size: larger;
+}
+
+.input-field-container {
+    display: flex;
+    align-items: center;
+    width: 92%;
+}
+
+.decrement {
+    display: inline-block;
+    border: 1px solid #e2e2e2;
+    border-radius: 5% 0% 0% 5%;
+    margin-right: 0px;
+    padding:7px;
+    font-size: 125%;
+    width: 15%;
+}
+
+.increment {
+    display: inline-block;
+    border: 1px solid #e2e2e2;
+    border-radius: 0% 5% 5% 0%;
+    margin-left: 0px;
+    padding:7px;
+    font-size: 120%;
+    width: 15%;
+}
+
+.container-right-display {
+    display: flex;
+    align-items: center;
+    width: 97%;
+    padding-bottom: 4%;
+}
+
+.outputLabel {
+    margin-right: 2%;
+    height:15%;
+}
+
+.outputLabelHeading {
+    font-size: 200%;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    height:20px;
+    font-weight: bolder;
+}
+
+.outputTip {
+    font-size: 3.5vw;
+    text-align: right;
+    width: 80%;
+    display: inline-block;
+}
+
+.outputTotal {
+    font-size: 3.5vw;
+    font-weight: bolder;
+    text-align: right;
+    width: 80%;
+    display: inline-block;
+}
+
+.error {
+    color: #dd0b0b;
+    font-weight: bolder;
+}

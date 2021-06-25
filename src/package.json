@@ -1,0 +1,19 @@
+{
+  "name": "tip-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "width": 850,
+    "height": 400,
+    "resizable": false,
+    "icon": "images/icon.png",
+    "position": "center"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

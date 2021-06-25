@@ -1,0 +1,21 @@
+{
+  "name": "tip-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "nw src/",
+    "build": "nexe"
+  },
+  "window": {
+    "width": 850,
+    "height": 400,
+    "resizable": false,
+    "icon": "src/images/icon.png",
+    "position": "center"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
